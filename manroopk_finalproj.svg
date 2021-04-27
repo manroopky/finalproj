@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="450 204 709 461" width="259px" height="257px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <rect width="85" height="20" x="609" y="366" style="fill:#007;stroke:black;"/>
+   <text width="85" height="20" x="614" y="380" style="fill:#fff;" font-family="Arial" font-size="16px"> adminstats</text>
+   <rect width="85" height="20" x="609" y="386" style="fill:none;stroke:black;"/>
+   <text width="85" height="20" x="614" y="400" style="fill:black;" font-family="Arial" font-size="16px">method</text>
+   <rect width="85" height="20" x="609" y="406" style="fill:none;stroke:black;"/>
+   <text width="85" height="20" x="614" y="420" style="fill:black;" font-family="Arial" font-size="16px">endpoint</text>
+   <rect width="85" height="20" x="609" y="426" style="fill:none;stroke:black;"/>
+   <text width="85" height="20" x="614" y="440" style="fill:black;" font-family="Arial" font-size="16px">requests</text>
+   <rect width="81" height="20" x="465" y="219" style="fill:#007;stroke:black;"/>
+   <text width="81" height="20" x="470" y="233" style="fill:#fff;" font-family="Arial" font-size="16px"> user</text>
+   <rect width="81" height="20" x="465" y="239" style="fill:none;stroke:black;"/>
+   <text width="81" height="20" x="470" y="253" style="fill:black;" font-family="Arial" font-size="16px">username</text>
+   <rect width="81" height="20" x="465" y="259" style="fill:none;stroke:black;"/>
+   <text width="81" height="20" x="470" y="273" style="fill:black;" font-family="Arial" font-size="16px">password</text>
+</svg>
