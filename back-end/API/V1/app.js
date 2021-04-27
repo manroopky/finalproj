@@ -20,7 +20,7 @@ app.use(function(req, res, next){
     next();
 });
 
-app.get(endPointRoot + "/user/", (req, res) => {
+app.post(endPointRoot + "/user/", (req, res) => {
     let q = url.parse(req.url, true);
     connection.query("INSERT INTO user(username, password) values ('"+ q.query.user + "','" + q.query.password + "')", (err, result) => {
         if (err) throw err;
@@ -47,7 +47,7 @@ app.get(endPointRoot + "/users/", (req, res) => {
     
 });
 
-app.get(endPointRoot + "/adminstats/", (req, res) => {
+app.put(endPointRoot + "/adminstats/", (req, res) => {
     connection.query("SELECT * FROM adminstats", (err, result) => {
         if (err) throw err;
         res.send(JSON.stringify(result));
